@@ -20,14 +20,20 @@ pip install -r requirements.txt
 - [x] Setup database (database.py)
 - [x] Create Pydantic models (models.py)
 
+### Core Features
+- [x] Implement `create_task()` (INSERT into SQLite)
+- [x] Implement `get_tasks()` (SELECT from SQLite)
+- [x] Create CRUD functions (crud.py)
+- [x] Connect FastAPI routes (main.py)
+
 ### Next Steps
-- [ ] Create CRUD functions (crud.py)
-- [ ] Implement `create_task()` (INSERT into SQLite)
-- [ ] Implement `get_tasks()` (SELECT from SQLite)
-- [ ] Connect FastAPI routes (main.py)
+- [ ] Implement `update_task()` (UPDATE SQLite)
+- [ ] Implement `delete_task()` (DELETE FROM SQLite)
 
 ## Next Session Focus
 
 Start with:
-- Build `create_task()` in crud.py
-- Test inserting a task into database
+- Build `update_task()` in crud.py
+- Test updating a task into database
+- Build `delete_task()` in crud.py
+- Test deleting a task from database
