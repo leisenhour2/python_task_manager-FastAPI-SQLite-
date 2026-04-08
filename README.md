@@ -4,7 +4,7 @@
 A task manager API built with FastAPI and SQLite.
 
 ## Status
-🚧 In Progress
+✅ Completed
 
 ## Goals
 - Build REST API
@@ -21,19 +21,9 @@ pip install -r requirements.txt
 - [x] Create Pydantic models (models.py)
 
 ### Core Features
-- [x] Implement `create_task()` (INSERT into SQLite)
-- [x] Implement `get_tasks()` (SELECT from SQLite)
-- [x] Create CRUD functions (crud.py)
-- [x] Connect FastAPI routes (main.py)
-
-### Next Steps
-- [ ] Implement `update_task()` (UPDATE SQLite)
-- [ ] Implement `delete_task()` (DELETE FROM SQLite)
-
-## Next Session Focus
-
-Start with:
-- Build `update_task()` in crud.py
-- Test updating a task into database
-- Build `delete_task()` in crud.py
-- Test deleting a task from database
+- Create tasks
+- View all tasks
+- Update existing tasks
+- Delete tasks
+- Store task data in SQLite
+- Validate request data with Pydantic
